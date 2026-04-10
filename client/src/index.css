@@ -64,14 +64,6 @@ button {
 }
 
 .container {
-  width: 100%;
-  max-width: 1820px;
+  width: 91.5%;
   margin: 0 auto;
-}
-
-@media (max-width: 1500px) {
-  .container {
-    width: 100%;
-    max-width: 1317px;
-  }
 }
