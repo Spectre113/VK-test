@@ -1,14 +1,7 @@
-import { useState } from 'react';
-import { CatsTabs } from './components/CatsTabs/CatsTabs';
+import { MainPage } from './pages/MainPage/MainPage';
 
 function App() {
-  const [tab, setTab] = useState<'all' | 'favorites'>('all');
-
-  return (
-    <div className="container">
-      <CatsTabs activeTab={tab} onChange={setTab} />
-    </div>
-  );
+  return <MainPage />;
 }
 
 export default App;

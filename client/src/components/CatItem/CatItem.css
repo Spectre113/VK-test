@@ -56,11 +56,6 @@
   transform: translateY(0);
 }
 
-.cat__item--favorite .cat__button {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 .cat__button svg {
   display: block;
 }

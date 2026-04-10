@@ -1,6 +1,5 @@
 .cats__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, 225px);
-  gap: 48px;
-  justify-content: center;
+  gap: 47.5px;
 }

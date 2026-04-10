@@ -4,11 +4,12 @@
 
 .cats-tabs__btn {
   min-width: 120px;
-  padding: 0 16px;
+  padding: 0 23px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-default);
+  letter-spacing: -0.75px;
   background-color: var(--header-background);
   transition: background-color 0.2s ease;
 }

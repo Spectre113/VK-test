@@ -14,7 +14,7 @@ export const CatItem = ({
   onToggleFavorite,
 }: CatItemProps) => {
   return (
-    <li className={`cat__item ${isFavorite ? 'cat__item--favorite' : ''}`}>
+    <li className="cat__item">
       <img src={url} alt="cat" className="cat__img" />
       <button
         className="btn-reset cat__button"
